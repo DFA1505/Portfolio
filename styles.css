@@ -125,10 +125,11 @@ h1{
 
 .projetos-imagem{
     height: 200px;
-    width: 70%;
+    width: 50%;
     object-fit: fill;
     margin: 0 auto;
     display: block;
+    padding: 3px;
 }
 
 .projetos-titulo{
