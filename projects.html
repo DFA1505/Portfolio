@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/1441065619.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="imgs/LOGO2.png" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="index.html#header">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+    </div>
+
+    <div class="projects-container">
+      <div class="projects-title">
+        <h1>My <span>Projects</span></h1>
+      </div>
+
+      <div id="projects"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="dados_projetos.js"></script>
+</html>

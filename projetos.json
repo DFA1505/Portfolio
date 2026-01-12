@@ -1,0 +1,107 @@
+[
+  {
+    "titulo": "Bookie",
+    "descricao": "A modern, responsive Single Page Application (SPA) developed using React.js designed for book enthusiasts to discover, search, and manage their favorite reads. The application features a clean, user-centric interface with real-time data integration.",
+    "imagem": "imgs/projetos/bookie.png",
+    "linkGit": "https://github.com/DFA1505/Bookie",
+    "link": "https://bookie-dfa1505.netlify.app/#books"
+  },
+  {
+    "titulo": "Foodie",
+    "descricao": "A high-performance web application built with React and Tailwind CSS. This project features a dynamic menu and a responsive design optimized for all devices. It demonstrates the use of component-based architecture and efficient state management",
+    "imagem": "imgs/projetos/foodie.png",
+    "linkGit": "https://github.com/DFA1505/Foodie",
+    "link": "https://foodie-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Velox Rentals",
+    "descricao": "A modern web application developed with React and Tailwind CSS. This project focuses on a clean UI/UX, featuring a dynamic car catalog and a fully responsive layout. Built with component reusability and performance in mind.",
+    "imagem": "imgs/projetos/velox.png",
+    "linkGit": "https://github.com/DFA1505/Velox-Rentals",
+    "link": "https://velox-rentals-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Shopsy",
+    "descricao": "A high-performance shopping application built with React and styled using Tailwind CSS. This project demonstrates scalable component architecture, efficient global state management for the shopping cart, and a fully responsive, utility-first design optimized for speed across all devices.",
+    "imagem": "imgs/projetos/shopsy.png",
+    "linkGit": "https://github.com/DFA1505/Shopsy",
+    "link": "https://shopsy-site-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "E-shop",
+    "descricao": "A high-performance e-shop application built with React. This project focuses on a scalable architecture and efficient state management. It features dynamic data rendering, optimized component reusability, and a mobile-first approach to ensure a seamless shopping experience across all platforms.",
+    "imagem": "imgs/projetos/eshop.png",
+    "linkGit": "https://github.com/DFA1505/E-shop",
+    "link": "https://e-shop-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Color Pallete Generator",
+    "descricao": "A lightweight and fast color palette generator built exclusively with Vanilla JS, HTML5, and CSS3. This project focuses on efficient DOM manipulation and algorithmic color generation, allowing users to create harmonious schemes without the overhead of external frameworks. It demonstrates a solid grasp of core web technologies and clean code practices.",
+    "imagem": "imgs/projetos/palletegen.png",
+    "linkGit": "https://github.com/DFA1505/Color-Pallete-Generator",
+    "link": "https://color-pallete-generator-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Currency Converter",
+    "descricao": "A dynamic web tool built with Vanilla JavaScript, focusing on seamless integration with external REST APIs. This project demonstrates the use of the Fetch API to retrieve live exchange rates and handle asynchronous data. It features efficient DOM manipulation and a clean, responsive interface styled with custom CSS3, ensuring accuracy and speed for the user.",
+    "imagem": "imgs/projetos/currencyConverter.png",
+    "linkGit": "https://github.com/DFA1505/Currency-Converter",
+    "link": "https://currency-converter-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Drag and Drop Clipboard",
+    "descricao": "A lightweight utility leveraging native Drag & Drop and Clipboard APIs. Features advanced event handling and custom-styled drop zones with smooth CSS transitions—built entirely without external libraries.",
+    "imagem": "imgs/projetos/dragdrop.png",
+    "linkGit": "https://github.com/DFA1505/Drag-an-Drop-Clipboard",
+    "link": "https://drag-and-clipboard-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Expense Tracker",
+    "descricao": "A lightweight personal finance tool built with pure JavaScript, HTML5, and CSS3. This project focuses on efficient DOM manipulation and state management without external frameworks. It demonstrates how to handle user input, perform real-time calculations, and update the UI dynamically to reflect current balances, income, and expenses.",
+    "imagem": "imgs/projetos/expense.png",
+    "linkGit": "https://github.com/DFA1505/Expense-Tracker",
+    "link": "https://expenser-tracker-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Form Validator",
+    "descricao": "A robust client-side validation system built with pure JavaScript. This project focuses on real-time data integrity using Regular Expressions (Regex) and custom validation logic. It demonstrates advanced event handling to provide instant feedback, ensuring a secure and user-friendly data entry process without the need for external libraries.",
+    "imagem": "imgs/projetos/form.jpg",
+    "linkGit": "https://github.com/DFA1505/Form-Validator",
+    "link": "https://form-validator-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "GitHub Finder",
+    "descricao": "A high-performance web application built with Vanilla JavaScript that connects directly to the GitHub REST API. This platform allows users to search for and explore any GitHub profile directly through the site, retrieving real-time data such as repositories, bio, and follower statistics.",
+    "imagem": "imgs/projetos/github.png",
+    "linkGit": "https://github.com/DFA1505/GitHub-Finder",
+    "link": "https://github-finder-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Password Generator",
+    "descricao": "A robust security utility built with Vanilla JavaScript that focuses on cryptographic randomness and string manipulation. This project implements custom algorithms to generate high-entropy passwords based on user-defined parameters such as length, symbols, and character diversity. ",
+    "imagem": "imgs/projetos/password.jpg",
+    "linkGit": "https://github.com/DFA1505/Password-Generator",
+    "link": "https://password-generator-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Quiz",
+    "descricao": "A interactive application built with Vanilla JavaScript that focuses on efficient state management and dynamic DOM manipulation. This project demonstrates the ability to handle complex conditional logic, track user scores in real-time, and process data structures to render questions and validate answers without page reloads. ",
+    "imagem": "imgs/projetos/quiz.jpg",
+    "linkGit": "https://github.com/DFA1505/Quiz",
+    "link": "https://quiz-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "To Do List",
+    "descricao": "A web application built with Vanilla JavaScript that interfaces directly with a public culinary REST API. This platform allows users to search for and explore recipes directly through the site ",
+    "imagem": "imgs/projetos/recipefinder.png",
+    "linkGit": "https://github.com/DFA1505/Recipe-Finder",
+    "link": "https://recipe-finder-dfa1505.netlify.app/"
+  },
+  {
+    "titulo": "Recipe Finder",
+    "descricao": "A high-performance productivity tool built with Vanilla JavaScript, focusing on the principles of CRUD (Create, Read, Update, Delete) operations. This project showcases efficient DOM manipulation and persistent data storage using the LocalStorage API, ensuring that tasks remain available after a page refresh.",
+    "imagem": "imgs/projetos/todo.jpg",
+    "linkGit": "https://github.com/DFA1505/Todo-List",
+    "link": "https://to-do-list-js-dfa1505.netlify.app/"
+  }
+]

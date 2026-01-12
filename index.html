@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/1441065619.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="imgs/LOGO2.png" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="hero">
+          <div class="header-text">
+            <p>Programmer</p>
+            <h1>Hi, Im <span>Daniel Fernandes Araujo</span></h1>
+          </div>
+
+          <div class="my-photo">
+            <img src="imgs/fotominha.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="imgs/cf0f757b-9549-465a-8efc-44a8ee3425ba.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Software Engineering student with previous experience in the
+              technology sector as an IT instructor at Microlins. Responsible
+              for troubleshooting platform issues and managing productivity
+              data. Provided programming support to students in HTML, CSS, and
+              JavaScript. Currently focused on Front-End development,
+              specializing in React. Holds a C1 English certification (Cambridge
+              School) and a B2 Spanish certification (Escuela de Idiomas del
+              Ejército).
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML/CSS</span><br />Designing Web/App Interfaces</li>
+                <li><span>JavaScript</span><br />Dynamic Functionality</li>
+                <li><span>React</span><br />Component-Based Architecture</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2024-2025</span><br />IT Instructor at Microlins</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Current</span><br />Graduating at Software Engineering
+                </li>
+                <li>
+                  <span>2023</span><br />C1 English certification (Cambridge
+                  School)
+                </li>
+                <li>
+                  <span>2023</span><br />B2 Spanish certification (Escuela de
+                  Idiomas del Ejército)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div class="">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Building fast, responsive, and SEO-friendly websites from scratch
+              using modern technologies.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="">
+            <i class="fa-brands fa-react"></i>
+            <h2>React Development</h2>
+            <p>
+              Building dynamic Single Page Applications (SPAs) with
+              component-based architecture for seamless and fast user
+              experiences.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="">
+            <i class="fa-solid fa-compass-drafting"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Designing intuitive and visually appealing interfaces that
+              prioritize user engagement.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="imgs/javascript.jpg" alt="" />
+            <div class="layer">
+              <h3>Native HTML, CSS & JS</h3>
+              <p>
+                Framework-free applications built from scratch, focusing on
+                clean code and high performance.
+              </p>
+              <a href="./projects.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="imgs/react.jpg" alt="" />
+            <div class="layer">
+              <h3>React.js Ecosystem</h3>
+              <p>
+                Scalable Single Page Applications (SPAs) built with
+                component-based architecture and modern state management.
+              </p>
+              <a href="./projects.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="imgs/api.jpg" alt="" />
+            <div class="layer">
+              <h3>JavaScript & API Integration</h3>
+              <p>
+                Asynchronous applications leveraging RESTful APIs to fetch and
+                display real-time external data.
+              </p>
+              <a href="./projects.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="see-all">
+          <button><a href="projects.html">See All Projects</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              >daniel.f.araujo1505@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+55 2199583-0996</p>
+            <p>
+              <i class="fa-brands fa-linkedin"></i>
+              My Linkedin
+              <a
+                href="https://www.linkedin.com/in/daniel-fernandes-6b19b2299/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </p>
+
+            <a
+              href="imgs/Daniel_FernandesAraujo_Currículo.pdf"
+              download
+              class="download-cv"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                class="input"
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                class="input"
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                class="input"
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy; Daniel Fernandes Araujo.</p>
+      </div>
+    </div>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwIbbucmFKFudgXzzrJozwRW_eq4RdpZO8G9oebPGkJhPJPcMCpsjJ_VeZ-MV0rC_49Kw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      function reset() {
+        const inputs = document.querySelectorAll(".input");
+
+        inputs.value = "";
+      }
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 3000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+  <script src="script.js"></script>
+</html>
